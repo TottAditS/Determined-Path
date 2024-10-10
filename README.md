@@ -42,16 +42,34 @@ To achieve this realism, Determined Path features a variety of mechanics that re
 <h3>What I Learned From Make This Game</h3>
 <p align="justify">Working on Determined Path has provided valuable insights into simulating realistic traffic systems and developing engaging gameplay mechanics that focus on player decision-making. I enhanced my understanding of pathfinding and AI behavior, ensuring that both the bus and surrounding vehicles followed realistic traffic patterns. Additionally, balancing the gameplay to maintain a sense of responsibility while keeping the experience fun was a rewarding challenge. I also refined my approach to creating player interactions, emphasizing how small decisions impact both the driver’s and passengers’ experiences. Initially, I tended to overcomplicate systems by trying to account for every potential scenario. However, while developing Determined Path, I embraced a more practical mindset, focusing on building the core mechanics first and gradually layering in complexity. This shift allowed me to deliver a more cohesive game and provided greater flexibility for refining the experience as new ideas emerged. Moving forward, I aim to continue prioritizing clarity and simplicity in my designs, improving efficiency without sacrificing depth.</p>
 
-# Guide To This Game
-<h3>Controls</h3>
-- W A S D - Movement
-- F - Bus's Light
-- E - Honk
-- Space - Brake
+## Files description
 
-<h3>Setup</h3>
-You can download this game from my itch io
-Link Here
+```
+├── DeterminedPath                     # In this Folder, containing all the Unity project files, to be opened by a Unity Editor
+   ├── ...
+   ├── Assets                         #  In this Folder, it contains all our code, assets, scenes, etcwas not automatically created by Unity
+      ├── ...
+      ├── 3rdParty                   # In this folder, there are several packages that you must add via Unity Package Manager
+      ├── Scenes                     # In this folder, there are scenes. You can open these scenes to play the game via Unity
+      ├── ....
+   ├── ...
+      
+```
+<br>
+
+## Game controls
+
+The following controls are bound in-game, for gameplay and testing.
+
+| Key Binding       | Function          |
+| ----------------- | ----------------- |
+| W,S,A,D          | Movement|
+| F           | Bus Light |
+| E           | Honk |
+| Space          | Brake |
+
+<h3>Download Game</h3>
+<p width="500px" align="left"><a href="https://juan-xavier.itch.io/determined-path">Determined Path Itch Page</p>
 
 If you encounter problem, feel free to contact me
 Thank you
