@@ -1,7 +1,7 @@
 <h1>Determined Path</h1>
 
 <h3>About This Project</h3>
-lorem
+Determined Path initially started as a project for Indie Game Ignite (IGI) Showcase. Afterwards, I kept working on this project for another GameToday Indie Game Competition.
 
 <h3>Project Info</h3>
 
