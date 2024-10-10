@@ -1,31 +1,60 @@
-# What is Determined Path ?
+<h1>Determined Path</h1>
 
-"Determined Path" is a video game that depicts the daily life of Andi, a bus driver who works to meet his daily needs. 
+<h3>About This Project</h3>
+lorem
+
+<h3>Project Info</h3>
+
+| **Role** | **Team Size** | **Development Time** | **Engine** |
+|----------|---------------|---------------------|------------|
+| Game Programmer | 3 | 1 Month | Unity 2022 |
+
+<h3>Meet the Team</h3>
+
+- Totti Adithana Sunarto (Lead Programmer & Level Designer)
+- Juan Xavier Soegiarto (Lead Game Designer & Sound Designer)
+- Yohanes Duns Scotus (Lead 3D Artist & 3D Animator)
+
+<h3>Game Description</h3>
+<p align="justify">"Determined Path" is a video game that depicts the daily life of Andi, a bus driver who works to meet his daily needs. 
 The game highlights the dynamic relationship between bus drivers and passengers, emphasizing their mutual dependence. 
 To serve the community effectively, buses require drivers who understand road ethics and possess the quick decision-making skills necessary for safety. 
 Conversely, bus drivers choose this profession to earn a livelihood, making the relationship between drivers and passengers one of mutual necessity. 
 In "Determined Path," players take on the role of the driver, maneuvering the bus, managing the bus environment, and ensuring safe transport of passengers. 
 The game was envisioned to teach the players the importance of safety on the road, obeying traffic laws, and ensuring everyone on the road is having a great time.
+</p>
 
-
-# Target Audience
-
-Casual players who want to use their free time to relax and unwind without having to think too much, while still maintaining the realistic aspects of being a public bus driver. 
+<h3>Target Gameplay</h3>
+<p align="justify">Casual players who want to use their free time to relax and unwind without having to think too much, while still maintaining the realistic aspects of being a public bus driver. 
 To achieve this realism, Determined Path features a variety of mechanics that represent the experience of a bus driver to the players. Additionally, players are provided with eye-catching 
-3D visual experiences to depict an immersive world from the perspective of a bus driver. To meet this goal, Determined Path will be designed for PC players.
+3D visual experiences to depict an immersive world from the perspective of a bus driver. To meet this goal, Determined Path will be designed for PC players.</p>
 
-# Keybindings
+# Game Mechanics I Created
+<h3>Simple Transaction System</h3>
+<p align="justify">The Simple Transaction System allows players to simulate real-world transactions between passengers and the bus driver. Players are responsible for collecting fares, giving the correct change, and ensuring that each passenger’s payment is handled efficiently. This system adds a layer of realism and interactivity, enhancing the overall experience of managing daily bus operations.</p>
 
+<h3>Random Passanger System</h3>
+<p align="justify">The Random Passenger System generates a diverse set of passengers with varying appearances and behaviors for each playthrough. This feature keeps the gameplay dynamic and unpredictable, as players must adapt to different passenger personalities and needs, ensuring each journey feels unique and engaging.</p>
+
+<h3>Occlusion and Level of Detail Optimization</h3>
+<p align="justify">The Occlusion and Level of Detail Optimization improves game performance by dynamically adjusting the visibility and detail of objects based on the player’s perspective. This technique reduces rendering overhead, maintains high frame rates, and ensures that only relevant elements are fully rendered, providing a smoother gameplay experience without sacrificing visual quality.</p>
+
+<h3>What I Learned From Make This Game</h3>
+<p align="justify">Working on Determined Path has provided valuable insights into simulating realistic traffic systems and developing engaging gameplay mechanics that focus on player decision-making. I enhanced my understanding of pathfinding and AI behavior, ensuring that both the bus and surrounding vehicles followed realistic traffic patterns. Additionally, balancing the gameplay to maintain a sense of responsibility while keeping the experience fun was a rewarding challenge. I also refined my approach to creating player interactions, emphasizing how small decisions impact both the driver’s and passengers’ experiences. Initially, I tended to overcomplicate systems by trying to account for every potential scenario. However, while developing Determined Path, I embraced a more practical mindset, focusing on building the core mechanics first and gradually layering in complexity. This shift allowed me to deliver a more cohesive game and provided greater flexibility for refining the experience as new ideas emerged. Moving forward, I aim to continue prioritizing clarity and simplicity in my designs, improving efficiency without sacrificing depth.</p>
+
+# Guide To This Game
+<h3>Controls</h3>
 - W A S D - Movement
 - F - Bus's Light
 - E - Honk
 - Space - Brake
 
-# Meet the Team
+<h3>Setup</h3>
+You can download this game from my itch io
+Link Here
 
-- Totti Adithana Sunarto (Lead Programmer & Level Designer)
-- Juan Xavier Soegiarto (Lead Game Designer & Sound Designer)
-- Yohanes Duns Scotus (Lead 3D Artist & 3D Animator)
+If you encounter problem, feel free to contact me
+Thank you
 
 3rd party assets:
 - BOXOPHOBIC Free Skybox Extended Shader : https://assetstore.unity.com/packages/vfx/shaders/free-skybox-extended-shader-107400
