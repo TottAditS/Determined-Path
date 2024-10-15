@@ -3,8 +3,8 @@
 >Determined Path</h1>
 
 <h3>About This Project</h3>
-Determined Path initially started as a project for Indie Game Ignite (IGI) Showcase. Afterwards, I kept working on this project for another GameToday Indie Game Competition.
-This is public repository for public purposes
+<p align="justify">Determined Path initially started as a project for Indie Game Ignite (IGI) Showcase. Afterwards, I kept working on this project for another GameToday Indie Game Competition.
+This is public repository for public purposes</p>
 
 <h3>Project Info</h3>
 
