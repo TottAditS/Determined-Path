@@ -36,11 +36,24 @@ To achieve this realism, Determined Path features a variety of mechanics that re
 <h3>Simple Transaction System</h3>
 <p align="justify">The Simple Transaction System allows players to simulate real-world transactions between passengers and the bus driver. Players are responsible for collecting fares, giving the correct change, and ensuring that each passenger’s payment is handled efficiently. This system adds a layer of realism and interactivity, enhancing the overall experience of managing daily bus operations.</p>
 
-<h3>Random Passanger System</h3>
-<p align="justify">The Random Passenger System generates a diverse set of passengers with varying appearances and behaviors for each playthrough. This feature keeps the gameplay dynamic and unpredictable, as players must adapt to different passenger personalities and needs, ensuring each journey feels unique and engaging.</p>
+```
+private void HandleTransaction()
+{
+    int fare = 10;  
+    int passengers = Random.Range(1, currcap + 1);  
+    int totalFare = passengers * fare;
+
+    text_notif.text = passengers + " passengers paid " + totalFare + " coins.";
+    //PlayerAccount.instance.AddCoins(totalFare);  
+}
+```
 
 <h3>Occlusion and Level of Detail Optimization</h3>
 <p align="justify">The Occlusion and Level of Detail Optimization improves game performance by dynamically adjusting the visibility and detail of objects based on the player’s perspective. This technique reduces rendering overhead, maintains high frame rates, and ensures that only relevant elements are fully rendered, providing a smoother gameplay experience without sacrificing visual quality.</p>
+
+![Karantin_oklusion](https://github.com/user-attachments/assets/483ce7e5-308f-4f3d-84b5-d24c6c8ec178)
+
+-> this gif is from another project, just to visualize what occlusion culling means
 
 <h3>What I Learned From Make This Game</h3>
 <p align="justify">Working on Determined Path has provided valuable insights into simulating realistic traffic systems and developing engaging gameplay mechanics that focus on player decision-making. I enhanced my understanding of pathfinding and AI behavior, ensuring that both the bus and surrounding vehicles followed realistic traffic patterns. Additionally, balancing the gameplay to maintain a sense of responsibility while keeping the experience fun was a rewarding challenge. I also refined my approach to creating player interactions, emphasizing how small decisions impact both the driver’s and passengers’ experiences. Initially, I tended to overcomplicate systems by trying to account for every potential scenario. However, while developing Determined Path, I embraced a more practical mindset, focusing on building the core mechanics first and gradually layering in complexity. This shift allowed me to deliver a more cohesive game and provided greater flexibility for refining the experience as new ideas emerged. Moving forward, I aim to continue prioritizing clarity and simplicity in my designs, improving efficiency without sacrificing depth.</p>
