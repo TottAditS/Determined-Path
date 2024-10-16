@@ -1,6 +1,6 @@
+![deterpat-ezgif com-optimize](https://github.com/user-attachments/assets/87fe5f90-18ca-4c3b-8acf-c71fcc12c9cb)
 
-<h1![deterpat-ezgif com-optimize](https://github.com/user-attachments/assets/87fe5f90-18ca-4c3b-8acf-c71fcc12c9cb)
->Determined Path</h1>
+<h1>Determined Path</h1>
 
 <h3>About This Project</h3>
 <p align="justify">Determined Path initially started as a project for Indie Game Ignite (IGI) Showcase. Afterwards, I kept working on this project for another GameToday Indie Game Competition.
