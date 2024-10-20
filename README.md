@@ -10,7 +10,9 @@ This is public repository for public purposes</p>
 
 | **Role** | **Team Size** | **Development Time** | **Engine** |
 |----------|---------------|---------------------|------------|
-| Game Programmer | 3 | 1 Month | Unity 2022 |
+| Game Programmer | 1 | 2 Weeks | Unity 2022 |
+| Game Designer | 1 | 2 Weeks | Gitbook |
+| 3D Artist | 1 | 2 Weeks | Blender|
 
 <h3>Meet the Team</h3>
 
@@ -57,6 +59,17 @@ private void HandleTransaction()
 
 <h3>What I Learned From Make This Game</h3>
 <p align="justify">Working on Determined Path has provided valuable insights into simulating realistic traffic systems and developing engaging gameplay mechanics that focus on player decision-making. I enhanced my understanding of pathfinding and AI behavior, ensuring that both the bus and surrounding vehicles followed realistic traffic patterns. Additionally, balancing the gameplay to maintain a sense of responsibility while keeping the experience fun was a rewarding challenge. I also refined my approach to creating player interactions, emphasizing how small decisions impact both the driver’s and passengers’ experiences. Initially, I tended to overcomplicate systems by trying to account for every potential scenario. However, while developing Determined Path, I embraced a more practical mindset, focusing on building the core mechanics first and gradually layering in complexity. This shift allowed me to deliver a more cohesive game and provided greater flexibility for refining the experience as new ideas emerged. Moving forward, I aim to continue prioritizing clarity and simplicity in my designs, improving efficiency without sacrificing depth.</p>
+
+## 📜 Scripts
+
+|  Script       | Description                                                  |
+| ------------------- | ------------------------------------------------------------ |
+| `CarAIController.cs` | Responsible for how the AI control the car NPC.|
+| `HalteManager.cs`  | Manages halte / Stations behaviour in the game |
+| `CarController.cs`  | Responsible for how the player control in the game. |
+| `ObjectPooler.cs`  | Manages the logic behind Object Pooling, in this case, NPC Cars [not yet implemented] |
+| `WaypointManager.cs`  | Manages the logic behind AI Waypoint Management |
+| `etc`  |
 
 ## Files description
 
